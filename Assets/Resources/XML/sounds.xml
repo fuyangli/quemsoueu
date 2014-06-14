@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sounds>
+	<sound>
+		<id>0</id>
+		<name>Error 1</name>
+		<path>Sounds/Error1</path>
+	</sound>
+	
+	<sound>
+		<id>1</id>
+		<name>Next 1</name>
+		<path>Sounds/Next1</path>
+	</sound>
+	
+	<sound>
+		<id>2</id>
+		<name>Um</name>
+		<path>TTS/Others/Um_pt-BR</path>
+	</sound>
+
+	<sound>
+		<id>3</id>
+		<name>Dois</name>
+		<path>TTS/Others/Dois_pt-BR</path>
+	</sound>
+
+	<sound>
+		<id>4</id>
+		<name>Três</name>
+		<path>TTS/Others/Três_pt-BR</path>
+	</sound>
+
+	<sound>
+		<id>5</id>
+		<name>Quatro</name>
+		<path>TTS/Others/Quatro_pt-BR</path>
+	</sound>
+
+	<sound>
+		<id>6</id>
+		<name>Cinco</name>
+		<path>TTS/Others/Cinco_pt-BR</path>
+	</sound>
+
+	<sound>
+		<id>7</id>
+		<name>Seis</name>
+		<path>TTS/Others/Seis_pt-BR</path>
+	</sound>
+
+	<sound>
+		<id>8</id>
+		<name>Sete</name>
+		<path>TTS/Others/Sete_pt-BR</path>
+	</sound>
+
+	<sound>
+		<id>9</id>
+		<name>Oito</name>
+		<path>TTS/Others/Oito_pt-BR</path>
+	</sound>
+
+	<sound>
+		<id>10</id>
+		<name>Nove</name>
+		<path>TTS/Others/Nove_pt-BR</path>
+	</sound>
+
+	<sound>
+		<id>11</id>
+		<name>Zero</name>
+		<path>TTS/Others/Zero_pt-BR</path>
+	</sound>
+
+	<sound>
+		<id>12</id>
+		<name>Pontos</name>
+		<path>TTS/Others/Pontos_pt-BR</path>
+	</sound>
+
+	<sound>
+		<id>13</id>
+		<name>e</name>
+		<path>TTS/Others/e_pt-BR</path>
+	</sound>
+
+	<sound>
+		<id>14</id>
+		<name>Rodada do</name>
+		<path>TTS/Others/Rodada do_pt-BR</path>
+	</sound>
+
+	<sound>
+		<id>15</id>
+		<name>Mais um ponto para</name>
+		<path>TTS/Others/Mais um ponto para_pt-BR</path>
+	</sound>
+</sounds>

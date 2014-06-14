@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d6e769277b0f43947ac733bf7f5a1e15
+labels:
+- inspector
+- editor
+- extension
+- mass
+- batch
+- enhanced
+- debug
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

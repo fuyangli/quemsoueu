@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cards>
+
+	<card>
+		<id>1</id>
+		<text>Abacaxi</text>
+		<audio>TTS/Cards/Abacaxi_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>2</id>
+		<text>Banana</text>
+		<audio>TTS/Cards/Banana_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>3</id>
+		<text>Caju</text>
+		<audio>TTS/Cards/Caju_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>4</id>
+		<text>Coco</text>
+		<audio>TTS/Cards/Abacaxi_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>5</id>
+		<text>Laranja</text>
+		<audio>TTS/Cards/Laranja_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>6</id>
+		<text>Maçã</text>
+		<audio>TTS/Cards/Maçã_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>7</id>
+		<text>Maracujá</text>
+		<audio>TTS/Cards/Maracujá_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>8</id>
+		<text>Morango</text>
+		<audio>TTS/Cards/Morango_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>9</id>
+		<text>Pêra</text>
+		<audio>TTS/Cards/Pêra_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>10</id>
+		<text>Uva</text>
+		<audio>TTS/Cards/Uva_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>11</id>
+		<text>Bibicleta</text>
+		<audio>TTS/Cards/Bicicleta_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>12</id>
+		<text>Carro</text>
+		<audio>TTS/Cards/Carro_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>13</id>
+		<text>Barco</text>
+		<audio>TTS/Cards/Barco_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>14</id>
+		<text>Moto</text>
+		<audio>TTS/Cards/Moto_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>15</id>
+		<text>Avião</text>
+		<audio>TTS/Cards/Avião_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>16</id>
+		<text>Skate</text>
+		<audio>TTS/Cards/Skate_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>17</id>
+		<text>Trem</text>
+		<audio>TTS/Cards/Trem_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>18</id>
+		<text>Helicóptero</text>
+		<audio>TTS/Cards/Helicóptero_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>19</id>
+		<text>Metrô</text>
+		<audio>TTS/Cards/Metrô_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>20</id>
+		<text>Patinete</text>
+		<audio>TTS/Cards/Patinete_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>21</id>
+		<text>Formiga</text>
+		<audio>TTS/Cards/Formiga_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>22</id>
+		<text>Urso</text>
+		<audio>TTS/Cards/Urso_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>23</id>
+		<text>Abelha</text>
+		<audio>TTS/Cards/Abelha_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>24</id>
+		<text>Pássaro</text>
+		<audio>TTS/Cards/Pássaro_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>25</id>
+		<text>Gato</text>
+		<audio>TTS/Cards/Gato_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>26</id>
+		<text>Galinha</text>
+		<audio>TTS/Cards/Galinha_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>27</id>
+		<text>Vaca</text>
+		<audio>TTS/Cards/Vaca_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>28</id>
+		<text>Cachorro</text>
+		<audio>TTS/Cards/Cachorro_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>29</id>
+		<text>Peixe</text>
+		<audio>TTS/Cards/Peixe_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>30</id>
+		<text>Rato</text>
+		<audio>TTS/Cards/Rato_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>31</id>
+		<text>Ovelha</text>
+		<audio>TTS/Cards/Ovelha_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>32</id>
+		<text>Aranha</text>
+		<audio>TTS/Cards/Aranha_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>33</id>
+		<text>Leão</text>
+		<audio>TTS/Cards/Leão_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>34</id>
+		<text>Tigre</text>
+		<audio>TTS/Cards/Tigre_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>35</id>
+		<text>Cavalo</text>
+		<audio>TTS/Cards/Cavalo_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>36</id>
+		<text>Porco</text>
+		<audio>TTS/Cards/Porco_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>37</id>
+		<text>Elefante</text>
+		<audio>TTS/Cards/Elefante_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>38</id>
+		<text>Mosca</text>
+		<audio>TTS/Cards/Mosca_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>39</id>
+		<text>Mosquito</text>
+		<audio>TTS/Cards/Mosquito_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>40</id>
+		<text>Cobra</text>
+		<audio>TTS/Cards/Cobra_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>41</id>
+		<text>Ator</text>
+		<audio>TTS/Cards/Ator_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>42</id>
+		<text>Chef de Cozinha</text>
+		<audio>TTS/Cards/Chef de Cozinha_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>43</id>
+		<text>Pedreiro</text>
+		<audio>TTS/Cards/Pedreiro_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>44</id>
+		<text>Escritor</text>
+		<audio>TTS/Cards/Escritor_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>45</id>
+		<text>Eletricista</text>
+		<audio>TTS/Cards/Eletricista_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>46</id>
+		<text>Engenheiro</text>
+		<audio>TTS/Cards/Engenheiro_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>47</id>
+		<text>Arquiteto</text>
+		<audio>TTS/Cards/Arquiteto_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>48</id>
+		<text>Pescador</text>
+		<audio>TTS/Cards/Pescador_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>49</id>
+		<text>Lixeiro</text>
+		<audio>TTS/Cards/Lixeiro_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>50</id>
+		<text>Músico</text>
+		<audio>TTS/Cards/Músico_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>51</id>
+		<text>Enfermeira</text>
+		<audio>TTS/Cards/Enfermeira_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>52</id>
+		<text>Pintor</text>
+		<audio>TTS/Cards/Pintor_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>53</id>
+		<text>Fotógrafo</text>
+		<audio>TTS/Cards/Fotógrafo_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>54</id>
+		<text>Piloto</text>
+		<audio>TTS/Cards/Piloto_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>55</id>
+		<text>Policial</text>
+		<audio>TTS/Cards/Policial_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>56</id>
+		<text>Cientista</text>
+		<audio>TTS/Cards/Cientista_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>57</id>
+		<text>Secretária</text>
+		<audio>TTS/Cards/Secretária_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>58</id>
+		<text>Soldado</text>
+		<audio>TTS/Cards/Soldado_pt-BR</audio>
+	</card>
+
+	<card>
+		<id>59</id>
+		<text>Professor</text>
+		<audio>TTS/Cards/Professor_pt-BR</audio>
+	</card>
+	
+	<card>
+		<id>60</id>
+		<text>Garçom</text>
+		<audio>TTS/Cards/Garçom_pt-BR</audio>
+	</card>
+	
+													
+</cards>
