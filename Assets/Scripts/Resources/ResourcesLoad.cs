@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -32,4 +33,11 @@ public class ResourcesLoad {
 	public static List<Sound> Sounds() {
 		return XMLParser.ParseAudios(Resources.Load<TextAsset>("XML/sounds").text);
 	}
+
+    public static Color ColorFrom255(int r, int g, int b) {
+        float newR = Mathf.Lerp(0, 1, Mathf.InverseLerp(0, 255, r));
+        float newG = Mathf.Lerp(0, 1, Mathf.InverseLerp(0, 255, g));
+        float newB = Mathf.Lerp(0, 1, Mathf.InverseLerp(0, 255, b));
+        return new Color(newR, newG, newB);
+    }
 }

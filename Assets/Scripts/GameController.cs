@@ -33,7 +33,7 @@ public class GameController : MonoBehaviour {
 	void StartGame() {
 		starting = false;
 		_players.Clear();
-		Player.instanceCounter = 0;
+		Player.InstanceCounter = 0;
 		_cards = ResourcesLoad.Cards();
 		_sounds = ResourcesLoad.Sounds();
 		if (numberOfPlayers > MAX_NUMBER_PLAYERS) {

@@ -8,7 +8,6 @@ namespace Assets.Scripts {
         public Color EnabledColor;
         public BoxCollider2D AddPlayerButton;
         public BoxCollider2D RemPlayerButton;
-        public BoxCollider2D CloseGameButton;
         public BoxCollider2D StartGameButton;
         public TextMesh NumberOfPlayersTextMesh;
 
@@ -25,8 +24,6 @@ namespace Assets.Scripts {
 
         // Update is called once per frame
         private void Update() {
-            // Set aspect ratio of Camera always the same
-            Camera.main.aspect = 4f / 3f;
 
             // Handle buttons color
             ((SpriteRenderer) AddPlayerButton.gameObject.renderer).color = _numberOfPlayers >= MAX_NUMBER_PLAYERS
@@ -47,9 +44,6 @@ namespace Assets.Scripts {
                     else if(hit.collider == RemPlayerButton) {
                         _numberOfPlayers--;
                         _numberOfPlayers = Mathf.Clamp(_numberOfPlayers, MIN_NUMBER_PLAYERS, MAX_NUMBER_PLAYERS);
-                        }
-                    else if(hit.collider == CloseGameButton) {
-                        Application.Quit();
                     }
                     else if(hit.collider == StartGameButton) {
                         GameManager.StartGame(_numberOfPlayers);

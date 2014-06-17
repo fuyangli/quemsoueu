@@ -1,25 +1,26 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 
-[System.Serializable]
+[Serializable]
 public class Player {
 	//// Statics
 	// int to set number of the player
-	public static int instanceCounter = 0;
-	private static Color[] colors = {
-		new Color(1, 0, 0),
-		new Color(0, 1, 0),
-		new Color(0, 0, 1),
-		new Color(1, 1, 0),
-		new Color(0, 1, 1),
-		new Color(1, 0, 1)
+	public static int InstanceCounter = 0;
+	private static readonly Color[] Colors = {
+	    ResourcesLoad.ColorFrom255(191, 57, 43), //red
+		ResourcesLoad.ColorFrom255(39, 174, 96), //green
+		ResourcesLoad.ColorFrom255(41, 128, 185), //blue
+		ResourcesLoad.ColorFrom255(241, 196, 15), //yellow
+		ResourcesLoad.ColorFrom255(52, 73, 94), //dark blue
+		ResourcesLoad.ColorFrom255(155, 89, 182) //magenta
 	};
 	//// Privates
 	// Identification
 	[SerializeField]
-	private int _number;
+	private readonly int _number;
 	[SerializeField]
-	private Color _color;
+	private readonly Color _color;
 	// Others
 	[SerializeField]
 	private Cell _positionOnBoard;
@@ -28,7 +29,7 @@ public class Player {
 	[SerializeField]
 	private Card _card;
 	[SerializeField]
-	private AudioClip _audio;
+	private readonly AudioClip _audio;
 
 	public int Number {
 		get { return _number; }
@@ -62,17 +63,15 @@ public class Player {
 	}
 	// Constructor
 	public Player() {
-		if (instanceCounter > 6) {
-			return;
-		}
-		this._color = colors[instanceCounter];
-		this._number = ++instanceCounter;
-		this._audio = Resources.Load<AudioClip>("TTS/Players/Jogador " + _number + "_pt-BR");
-		this._points = 0;
+
+		_color = Colors[InstanceCounter];
+		_number = ++InstanceCounter;
+		_audio = Resources.Load<AudioClip>("TTS/Players/Jogador " + _number + "_pt-BR");
+		_points = 0;
 
 	}
 
 	~Player() {
-		instanceCounter--;
+		InstanceCounter--;
 	}
 }
